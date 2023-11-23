@@ -1,0 +1,121 @@
+/* ============== COMMON STYLES ============== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+}
+
+.accent-color {
+    color: #fd9222;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 1168px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ============== /COMMON STYLES ============== */
+
+/* ============== HEADER STYLES ============== */
+.page-navigation {
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+.menu {
+    display: flex;
+    column-gap: 24px;
+}
+
+.menu-link {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #111111;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #fd9222;
+}
+
+/* ============== /HEADER STYLES ============== */
