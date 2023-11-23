@@ -300,3 +300,28 @@ body {
 
 /* ============== /REVIEW STYLES ============== */
 
+/* ============== FOOTER STYLES ============== */
+.page-footer-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+}
+
+.contact-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    text-align: center;
+}
+
+.contact-list-link {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+/* ============== /FOOTER STYLES ============== */
