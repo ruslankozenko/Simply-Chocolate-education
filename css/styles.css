@@ -89,12 +89,26 @@ body {
     align-items: center;
 }
 
+.page-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .logo {
+    display: flex;
+    align-items: center;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: -0.03em;
     color: #111111;
+}
+
+.logo-icon {
+    fill: #fcf1e0;
+    stroke: #fd9222;
+    margin-left: 4px;
 }
 
 .menu {
@@ -111,12 +125,33 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     color: #111111;
+    transition: color 250ms linear;
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: #fd9222;
 }
+
+.social-list {
+    display: flex;
+    column-gap: 18px;
+}
+
+.social-list-link {
+    display: block;
+    line-height: 0;
+    stroke: #111111;
+    fill: none;
+    transition: stroke 250ms linear;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    stroke: #fd9222;
+}
+
+
 
 /* ============== /HEADER STYLES ============== */
 
