@@ -410,11 +410,41 @@ body {
 /* ============== /INGREDIENTS STYLES ============== */
 
 /* ============== HOW MADE STYLES ============== */
+.section-title {
+    color: #111111;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+}
+
+.accent-color {
+    color: #FD9222;
+}
+
+.how-made-content-wrapper {
+    display: flex;
+    column-gap: 20px;
+}
+
+.how-made-text-wrapper {
+    flex-grow: 1;
+    padding: 32px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
 .how-made-title {
     font-size: 18px;
     font-weight: 600;
     line-height: 1.33;
     color: #111111;
+    display: block;
+        margin-bottom: 28px;
+        width: 350px;
 }
 
 .how-made-list-item {
@@ -423,6 +453,10 @@ body {
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: #111111;
+}
+
+.how-made-list-item:not(:last-child) {
+    margin-bottom: 24px;
 }
 
 /* ============== /HOW MADE STYLES ============== */
