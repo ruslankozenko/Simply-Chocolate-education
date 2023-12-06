@@ -167,6 +167,8 @@ body {
         rgba(17, 17, 17, 0.4)),
         url('../images/hero/bg.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main-title {
@@ -194,6 +196,7 @@ body {
     margin-right: 14px;
     background-color: #fd9222;
     color: #ffffff;
+    transition: background-color 250ms linear, color 250ms linear;
 }
 
 .buy-now-btn:hover,
@@ -212,6 +215,7 @@ body {
     border: 1px solid #ffffff;
     margin-right: auto;
     color: #ffffff;
+    transition: border 250ms linear, color 250ms linear;
 }
 
 .how-made-link:hover,
