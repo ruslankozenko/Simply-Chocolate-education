@@ -59,7 +59,6 @@ body {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -151,20 +150,6 @@ body {
     stroke: #fd9222;
 }
 
-.icon-scroll-down {
-    fill: #FD9222;
-    background-color: #fff;
-    border-radius: 50px;
-    padding: 8px;
-    box-sizing: content-box;
-    transition: fill 250ms linear, background-color 250ms linear;
-}
-
-.scroll-down-link:hover .icon-scroll-down {
-    fill: #fff;
-    background-color: #FD9222;
-}
-
 
 /* ============== /HEADER STYLES ============== */
 
@@ -241,6 +226,10 @@ body {
     line-height: 1.29;
     letter-spacing: -0.03em;
     color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    transition: color 250ms linear;
+    gap: 14px;
 }
 
 .scroll-down-link:hover,
@@ -249,7 +238,17 @@ body {
 }
 
 .icon-scroll-down {
+    fill: #FD9222;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 8px;
+    box-sizing: content-box;
+    transition: fill 250ms linear, background-color 250ms linear;
+}
 
+.scroll-down-link:hover .icon-scroll-down {
+    fill: #fff;
+    background-color: #FD9222;
 }
 
 /* ============== /HERO STYLES ============== */
@@ -464,11 +463,11 @@ body {
 /* ============== REVIEW STYLES ============== */
 .reviews {
     display: flex;
-        width: 1136px;
-        flex-direction: column;
-        align-items: center;
-        gap: 32px;
-        margin-bottom: 50px;
+    width: 1136px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 50px;
 }
 
 .reviews-list {
@@ -493,9 +492,9 @@ body {
 
 .reviews-list-avatar {
     position: absolute;
-        top: -43px;
-        left: 140px;
-        z-index: 999;
+    top: -43px;
+    left: 140px;
+    z-index: 999;
 }
 .reviews-list-fullname {
     font-size: 18px;
