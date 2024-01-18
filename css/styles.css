@@ -188,6 +188,96 @@ body {
 
  /* ============== /MOBILE HEADER ============== */
 
+ /* ============== MOBILE HERO ============== */
+
+ .hero {
+    width: 335px;
+    padding: 499px 16px 21px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: rgba(17, 17, 17, 0.6);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4),
+                rgba(17, 17, 17, 0.4)),
+            url('../images/hero/bg mob.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .main-title {
+    width: 291px;
+    height: 72px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    margin-bottom: 32px;
+ }
+
+ .hero-bottom-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 14px;
+ }
+
+ .buy-now-btn {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    min-width: 121px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    padding: 12px 28px;
+    background-color: #fd9222;
+    color: #ffffff;
+    transition: background-color 250ms linear, color 250ms linear;
+ }
+
+ .how-made-link {
+    display: flex;
+    align-items: flex-start;
+     min-width: 159px;
+    height: 41px;
+     padding: 12px 28px;
+     font-size: 14px;
+     font-weight: 600;
+     text-align: center;
+     border-radius: 100px;
+     border: 1px solid #ffffff;
+     margin-right: auto;
+     color: #ffffff;
+     transition: border 250ms linear, color 250ms linear;
+ }
+
+ .scroll-down-link {
+     font-size: 12px;
+     font-weight: 500;
+     line-height: 1.16;
+     letter-spacing: -0.03em;
+     color: #ffffff;
+     display: flex;
+     align-items: center;
+     transition: color 250ms linear;
+     gap: 14px;
+ }
+
+ .icon-scroll-down {
+     fill: #FD9222;
+     background-color: #fff;
+     border-radius: 50px;
+     padding: 6px;
+     box-sizing: content-box;
+     transition: fill 250ms linear, background-color 250ms linear;
+  }
+
+  /* ============== /MOBILE HERO ============== */
+
 }
 
 

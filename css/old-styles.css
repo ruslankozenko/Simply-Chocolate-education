@@ -166,7 +166,7 @@ body {
     background-image: linear-gradient(
         rgba(17, 17, 17, 0.4),
         rgba(17, 17, 17, 0.4)),
-        url('../images/hero/bg.jpg');
+        url('../images/hero/bg desk.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -184,7 +184,8 @@ body {
 
 .hero-bottom-block {
     display: flex;
-    align-items: center;
+        align-items: center;
+
 }
 
 .buy-now-btn {
