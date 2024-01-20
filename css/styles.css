@@ -375,6 +375,53 @@ body {
      }
  }
 
+ .main-title {
+    width: 484px;
+    height: 102px;
+    font-size: 28px;
+ }
+
+ .buy-now-btn {
+    min-width: 144px;
+    padding: 14px 40px;
+ }
+
+ .buy-now-btn:hover,
+ .buy-now-btn:focus {
+     background-color: #fcf1e0;
+     color: #fd9222;
+ }
+
+ .how-made-link {
+     min-width: 183px;
+    height: 45px;
+     padding: 14px 40px;
+ }
+
+ .how-made-link:hover,
+ .how-made-link:focus {
+     color: #fd9222;
+     border-color: #fd9222;
+ }
+
+ .scroll-down-link {
+    font-size: 14px;
+    line-height: 1.29;
+ }
+
+ .scroll-down-link:hover,
+ .scroll-down-link:focus {
+     color: #fd9222;
+ }
+
+ .icon-scroll-down {
+    padding: 8px;
+ }
+
+ .scroll-down-link:hover .icon-scroll-down {
+     fill: #fff;
+     background-color: #FD9222;
+ }
 
 /* ============== /TABLET HERO ============== */
 
@@ -418,6 +465,8 @@ body {
             url(../images/hero/bg-desk2.jpg);
     }
 }
+
+
 
 /* ============== DESKTOP HERO ============== */
 
