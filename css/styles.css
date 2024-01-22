@@ -290,11 +290,6 @@ body {
 
     /* ============== MOBILE BENEFITS ============== */
 
-.section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    }
-
  .icon {
     display: flex;
     width: 62px;
@@ -314,12 +309,12 @@ body {
  .benefits {
     display: flex;
     min-width: 375px;
-    padding: 20px;
+    padding: 20px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #1E1823;
-     margin-top: 60px;
+    margin-top: 60px;
     margin-bottom: 30px;
  }
 
@@ -328,12 +323,11 @@ body {
      font-weight: 600;
      color: #FFF;
      line-height: normal;
-     margin-bottom: 22px;
+     margin-bottom: 18px;
  }
 
  .benefits-list-item {
    width: 308px;
-   padding-right: 28px;
  }
 
  .benefits-list {
@@ -348,18 +342,15 @@ body {
      font-weight: 400;
      line-height: 1.29;
      letter-spacing: -0.02em;
+    font-style: normal;
+    line-height: normal;
  }
-
- 
-
- 
-  
-
 
 
 @media screen and (min-width: 768px) {
     .container {
         max-width: 736px;
+        padding: 0px;
     }
 
  /* ============== TABLET HEADER ============== */
@@ -491,6 +482,24 @@ body {
 
 /* ============== /TABLET HERO ============== */
 
+/* ============== TABLET BENEFIT ============== */
+
+.benefits {
+    padding: 50px 32px 50px;
+}
+
+.benefits-list {
+    gap: 32px;
+}
+
+.benefits-list-item {
+    width: 336px;
+    height: 244px;
+    padding-right: 28px;
+}
+
+/* ============== /TABLET BENEFIT ============== */
+
 }
 
 @media screen and (min-width: 1168px) {
@@ -534,6 +543,39 @@ body {
 
 /* ============== /DESKTOP HERO ============== */
 
+/* ============== DESKTOP BENEFIT ============== */
 
+.benefits-list .current-benefits::after {
+    content: "";
+    width: 1px;
+    height: 124px;
+    display: block;
+    color: #FFF;
+    background: rgba(255, 255, 255, 0.50);
+    position: absolute;
+    right: -0px;
+    top: 70px;
 }
+
+.current-benefits {
+    position: relative;
+}
+
+.benefits {
+   padding: 50px;
+}
+
+.benefits-list {
+    flex-wrap: nowrap;
+    gap: 70px;
+    }
+
+.benefits-list-item {
+    width: 308px;
+   padding-right: 18px;
+    }
+    
+}
+
+
 
