@@ -308,7 +308,6 @@ body {
   
  .benefits {
     display: flex;
-    
     padding: 20px 0px;
     flex-direction: column;
     justify-content: center;
@@ -353,8 +352,8 @@ body {
  .ingredients {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
-    margin-bottom: 30px;
+ 
+    padding-bottom: 30px;
  }
 
  .ingredients-section-title {
@@ -488,6 +487,71 @@ body {
 
  /* ============== /MOBILE INGREDIENTS ============== */
 
+ /* ============== MOBILE HOW MADE ============== */
+
+ .section-title {
+     color: #111111;
+     text-align: center;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 1.2;
+     letter-spacing: -0.03em;
+     text-transform: uppercase;
+     margin-top: 30px;
+     padding-bottom: 32px;
+ }
+
+ .accent-color {
+     color: #FD9222;
+ }
+
+ .how-made-content-wrapper {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .how-made-text-wrapper {
+     flex-grow: 1;
+     padding: 20px 14px;
+     border-radius: 15px;
+     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .how-made-list {
+    padding-left: 16px;
+ }
+
+ .how-made-title {
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 1.33;
+     color: #111111;
+     display: block;
+     margin-bottom: 20px;
+     width: 307px;
+ }
+
+ .how-made-list-item {
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 1.29;
+     letter-spacing: -0.02em;
+     color: #111111;
+     width: 291px;
+ }
+
+ .how-made-list-item:not(:last-child) {
+     margin-bottom: 24px;
+ }
+
+ 
+
+/* ============== /MOBILE HOW MADE ============== */
 
 @media screen and (min-width: 768px) {
     .container {
@@ -669,6 +733,33 @@ body {
 
 /* ============== /TABLET INGREDIENTS ============== */
 
+/* ============== TABLET HOW MADE ============== */
+
+.how-made-content-wrapper {
+    width: 614px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-made-text-wrapper {
+    padding: 32px;
+    align-items: flex-start;
+}
+
+.how-made-title {
+    width: 350px;
+}
+
+.how-made-list-item {
+    width: 464px;
+}
+
+.how-made-list-item:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+/* ============== /TABLET HOW MADE ============== */
+
 }
 
 @media screen and (min-width: 1168px) {
@@ -764,6 +855,24 @@ body {
 }
 
 /* ============== DESKTOP INGREDIENTS ============== */
+
+/* ============== DESKTOP HOW MADE ============== */
+
+.section-title {
+    font-size: 24px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.how-made-content-wrapper {
+    column-gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+/* ============== /DESKTOP HOW MADE ============== */
     
 }
 

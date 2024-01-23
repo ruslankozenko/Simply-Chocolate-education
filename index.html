@@ -164,7 +164,7 @@
   
       <section class="ingredients section">
         <div class="container">
-          <h2 class="section-title ingredients-section-title">
+          <h2 class="ingredients-section-title">
             It all adds up to one exceptional
             <span class="accent-color">taste</span> sensation
           </h2>
@@ -333,20 +333,34 @@
       </section>
       
       <!-- HOW IT`S MADE SECTION -->
-      <!--
+      
       <section class="how-made section" id="how-made">
         <div class="container">
           <h2 class="section-title">
             How it's <span class="accent-color">made?</span>
           </h2>
           <div class="how-made-content-wrapper">
-            <img
-              class="how-made-img"
-              src="./images/how-made/how-made.jpg"
-              alt="chocolate making process"
-              width="600"
-              height="400"
-            />
+          <picture>
+            <source
+            srcset="./images/how-made/how-made-desk.jpg,
+                    ./images/how-made/how-made-desk2.jpg 2x"
+                    media="(min-width: 1168px)"
+                    />
+            <source
+            srcset="./images/how-made/how-made-tab.jpg,
+                    ./images/how-made/how-made-tab2.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+            <source
+            srcset="./images/how-made/how-made-mob.jpg,
+                    ./images/how-made/how-made-mob2.jpg 2x"
+                    media="max-width: 767px"
+                    />
+            <img 
+             src="./images/how-made/how-made-mob.jpg"
+             alt="foto how-made"
+             />                        
+          </picture>  
             <div class="how-made-text-wrapper">
               <h3 class="how-made-title">
                 Try our chocolates today and discover the perfect balance of
@@ -377,7 +391,7 @@
           </div>
         </div>
       </section>
--->
+
       <!-- REVIEWS SECTION -->
       <!--
       <section class="reviews" id="reviews">
