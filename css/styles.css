@@ -308,7 +308,7 @@ body {
   
  .benefits {
     display: flex;
-    min-width: 375px;
+    
     padding: 20px 0px;
     flex-direction: column;
     justify-content: center;
@@ -346,11 +346,152 @@ body {
     line-height: normal;
  }
 
+ /* ============== /MOBILE BENEFITS ============== */
+
+ /* ============== MOBILE INGREDIENTS ============== */
+
+ .ingredients {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+ }
+
+ .ingredients-section-title {
+    width: 283px;
+    color: #111;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+  }
+
+ .ingredients-description {
+     width: 335px;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.29;
+     letter-spacing: -0.02em;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 60px;
+     color: #111111;
+ }
+
+ .ingredients-list-title {
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 1.29;
+     letter-spacing: -0.02em;
+     text-transform: uppercase;
+     padding-top: 25px;
+     margin-left: auto;
+    margin-right: auto;
+    
+ }
+
+ .ingredients-list {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .ingredients-list-item {
+     position: relative;
+    width: 335px;
+    height: 270px;
+
+     overflow: hidden;
+     padding: 28px 55px 71px 56px;
+     border-radius: 15px;
+     border: 1px solid #fd9222;
+ }
+
+ .ingredients-list-item:nth-child(4n + 1) {
+     color: #ffffff;
+     background-color: #fd9222;
+ }
+
+ .ingredients-list-item:nth-child(even) {
+     background-color: #ffffff;
+ }
+
+ .ingredients-list-item:nth-child(4n + 3) {
+     color: #ffffff;
+     background-color: #1e1823;
+     border-color: #1e1823;
+ }
+
+ .ingredients-list-img {
+     margin-bottom: 36px;
+ }
+
+ .overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     border-radius: 15px;
+     padding: 20px;
+     overflow: auto;
+     transform: translateY(100%);
+     background-color: #ffffff;
+     transition: transform 250ms linear;
+ }
+
+ .ingredients-list-item:hover .overlay {
+     transform: translateY(0%);
+ }
+
+ .overlay p {
+     color: #111;
+ }
+
+ .list-block-overlay {
+     display: flex;
+     gap: 6px;
+     margin-bottom: 14px;
+ }
+
+ .link-overlay-taste {
+     color: #FFF;
+     font-size: 10px;
+     font-weight: 400;
+     line-height: 1.2;
+     border-radius: 35px;
+     background: #FD9222;
+     padding: 6px 16px;
+     align-items: center;
+     min-width: 81px;
+ }
+
+ .link-overlay-benefits {
+     color: #111;
+     font-size: 10px;
+     font-weight: 400;
+     line-height: 1.2;
+     padding: 6px 16px;
+     border-radius: 35px;
+     border: 1px solid #FD9222;
+     background-color: #FAFAFA;
+     min-width: 93px;
+ }
+
+ /* ============== /MOBILE INGREDIENTS ============== */
+
 
 @media screen and (min-width: 768px) {
     .container {
         max-width: 736px;
-        padding: 0px;
     }
 
  /* ============== TABLET HEADER ============== */
@@ -485,7 +626,7 @@ body {
 /* ============== TABLET BENEFIT ============== */
 
 .benefits {
-    padding: 50px 32px 50px;
+    padding-top: 50px;
 }
 
 .benefits-list {
@@ -499,6 +640,34 @@ body {
 }
 
 /* ============== /TABLET BENEFIT ============== */
+
+/* ============== TABLET INGREDIENTS ============== */
+
+.ingredients {
+    margin-bottom: 40px;
+}
+
+.ingredients-section-title {
+    width: 411px;
+    height: 56px;
+    font-size: 24px;
+    line-height: 1.16;
+    margin-bottom: 28px;
+}
+
+.ingredients-description {
+    width: 486px;
+    margin-bottom: 50px;
+}
+
+.ingredients-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 704px;
+    gap: 32px;
+}
+
+/* ============== /TABLET INGREDIENTS ============== */
 
 }
 
@@ -571,9 +740,30 @@ body {
     }
 
 .benefits-list-item {
-    width: 308px;
+   width: 308px;
    padding-right: 18px;
     }
+
+/* ============== /DESKTOP BENEFIT ============== */
+
+/* ============== DESKTOP INGREDIENTS ============== */
+
+.ingredients {
+    margin-top: 100px;
+}
+
+.ingredients-list {
+    flex-wrap: nowrap;
+    width: 1136px;
+    gap: 19px;
+}
+
+.ingredients-list-item {
+    padding: 32px 28px;
+    width: calc((100% - 57px) / 4);
+}
+
+/* ============== DESKTOP INGREDIENTS ============== */
     
 }
 
