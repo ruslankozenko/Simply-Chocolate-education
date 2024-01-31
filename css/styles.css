@@ -563,8 +563,6 @@ body {
 .reviews {
     display: flex;
     width: 335px;
-    flex-direction: column;
-    align-items: center;
     gap: 32px;
     margin-bottom: 60px;
     margin-top: 60px;
@@ -862,22 +860,15 @@ body {
 
 /* ============== TABLET REVIEWS ============== */
 
-@media screen and (min-width: 768px) and (max-width: 1167px) {
-    .container {
-            padding-left: 0%;
-        }
-}
-
 .review-foto-1 {
     display: block;
 }
 
 .reviews {
-    width: 704px;
+    min-width: 704px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-
+    justify-content: space-around;
 }
 
 .reviews-list {
@@ -893,6 +884,12 @@ body {
 
 .review-title {
     margin-bottom: 92px;
+}
+
+.leave-review-btn:hover,
+.leave-review-btn:focus {
+    color: #ffffff;
+    background-color: #fd9222;
 }
 
 /* ============== /TABLET REVIEWS ============== */
@@ -1024,7 +1021,6 @@ body {
     width: 1136px;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin: 0;
 }
 
 .reviews-list-item {
@@ -1043,6 +1039,11 @@ body {
     left: 140px;
 }
 
+.review-title {
+    font-size: 24px;
+    line-height: 1.16;
+}
+
 .leave-review-btn {
     font-size: 18px;
     width: 222px;
@@ -1051,12 +1052,6 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 14px;
-}
-
-.leave-review-btn:hover,
-.leave-review-btn:focus {
-    color: #ffffff;
-    background-color: #fd9222;
 }
 
 /* ============== /DESKTOP REVIEWS ============== */
