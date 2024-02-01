@@ -995,6 +995,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
+    margin-bottom: 80px;
 }
 
 .reviews-list {
@@ -1020,7 +1021,60 @@ body {
 
 /* ============== /TABLET REVIEWS ============== */
 
+/* ============== TABLET FOOTER ============== */
+
+.page-footer {
+    padding-top: 50px;
 }
+
+.page-footer-top-block {
+    max-width: 704px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 16px 0;
+}
+
+.page-footer-title {
+    font-size: 28px;
+    line-height: 1.21;
+}
+
+.positions-footer-mob {
+    display: none;
+}
+
+.page-footer-right-side {
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 704px;
+}
+
+.menu-footer {
+    flex-direction: row;
+    gap: 16px;
+    padding-top: 24px;
+}
+
+.page-footer-menu-link {
+    color: #FFF;
+    padding-top: 24px;
+}
+
+.input-form-footer {
+    width: 233px;
+    padding: 14px 24px;
+}
+
+.button-subscribe-footer {
+    min-width: 128px;
+    padding: 14px 28px;
+}
+
+/* ============== /TABLET FOOTER ============== */
+
+
 
 @media screen and (min-width: 1168px) {
     .container {
@@ -1146,7 +1200,7 @@ body {
 .reviews {
     width: 1136px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .reviews-list-item {
@@ -1181,6 +1235,30 @@ body {
 }
 
 /* ============== /DESKTOP REVIEWS ============== */
+
+/* ============== DESKTOP FOOTER ============== */
+
+.page-footer-top-block {
+    max-width: 1136px;
+}
+
+.page-footer-right-side {
+    width: 1136px;
+    margin-top: 24px;
+}
+
+.input-form-footer {
+    width: 313px;
+    height: 52px;
+}
+
+.button-subscribe-footer {
+    min-width: 137px;
+    height: 52px;
+    padding: 17px 40px;
+}
+
+/* ============== /DESKTOP FOOTER ============== */
     
 }
 
