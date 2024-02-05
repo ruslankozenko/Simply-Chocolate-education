@@ -774,7 +774,13 @@ body {
     background-color: #fff;
     border: 1px solid #FD9222;
     color: #FD9222;
-}    
+}
+
+.positions-footer-mob {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
 
 /* ============== /MOBILE FOOTER ============== */
 
